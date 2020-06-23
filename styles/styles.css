@@ -20,6 +20,9 @@ header {
 /* Donate Styles */
 .donate {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
   width: 125px;
   height: 125px;

@@ -1,5 +1,5 @@
 width = window.innerWidth;
-const nav = document.querySelector(".nav");
+const nav = document.querySelector("nav");
 const open = document.querySelector(".open");
 const close = document.querySelector(".close");
 
@@ -16,8 +16,7 @@ close.addEventListener("click", () => {
   close.classList.add("hidden");
   open.classList.remove("hidden");
 });
-if(width < 1000) {
+if (width < 1000) {
   nav.classList.remove("fullNav");
   nav.classList.add("mobileNav");
-
 }
